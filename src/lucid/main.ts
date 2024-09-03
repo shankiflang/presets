@@ -40,8 +40,8 @@ export const DIALECTS: {
       DB_HOST: '127.0.0.1',
       DB_PORT: 3306,
       DB_USER: 'root',
-      DB_PASSWORD: '',
-      DB_DATABASE: '',
+      DB_PASSWORD: 'root',
+      DB_DATABASE: 'app',
     },
     envValidations: {
       DB_HOST: `Env.schema.string({ format: 'host' })`,
@@ -57,9 +57,9 @@ export const DIALECTS: {
     envVars: {
       DB_HOST: '127.0.0.1',
       DB_PORT: 5432,
-      DB_USER: 'postgres',
-      DB_PASSWORD: '',
-      DB_DATABASE: '',
+      DB_USER: 'root',
+      DB_PASSWORD: 'root',
+      DB_DATABASE: 'app',
     },
     envValidations: {
       DB_HOST: `Env.schema.string({ format: 'host' })`,
@@ -75,9 +75,9 @@ export const DIALECTS: {
     envVars: {
       DB_HOST: '127.0.0.1',
       DB_PORT: 1433,
-      DB_USER: 'sa',
-      DB_PASSWORD: '',
-      DB_DATABASE: '',
+      DB_USER: 'root',
+      DB_PASSWORD: 'root',
+      DB_DATABASE: 'app',
     },
     envValidations: {
       DB_HOST: `Env.schema.string({ format: 'host' })`,
